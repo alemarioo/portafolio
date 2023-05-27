@@ -8,11 +8,15 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {ClipboardModule} from '@angular/cdk/clipboard';
 import { ToastrModule } from 'ngx-toastr';
+import { SocialNetworksComponent } from './components/social-networks/social-networks.component';
+import { BlobzComponent } from './components/blobz/blobz.component';
 @NgModule({
   declarations: [
     AppComponent,
     MeComponent,
-    NavbarComponent
+    NavbarComponent,
+    SocialNetworksComponent,
+    BlobzComponent
   ],
   imports: [
     BrowserModule,

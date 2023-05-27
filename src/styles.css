@@ -6,3 +6,24 @@
 html {
     scroll-behavior: smooth;
 }
+
+@font-face {
+    font-family: 'commons-pro';
+    src: url('./assets/common-pro/Fontspring-DEMO-tt_commons_pro_bold.otf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'commons-pro';
+    src: url('./assets/common-pro/Fontspring-DEMO-tt_commons_pro_bold_italic.otf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'commons-pro';
+    src: url('./assets/common-pro/Fontspring-DEMO-tt_commons_pro_medium.otf');
+    font-weight: normal;
+    font-style: normal;
+}

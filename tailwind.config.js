@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans' : ['Asap', 'sans-serif']
+        'sans' : ['Asap', 'sans-serif'],
+        'commons-pro': ['commons-pro']
       }
     },
   },
