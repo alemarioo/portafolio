@@ -15,6 +15,8 @@ export class BlobzComponent implements OnInit {
 
   @Input() color: string;
 
+  @Input() class: string;
+
   ngOnInit(): void {
   }
 

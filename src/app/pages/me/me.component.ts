@@ -12,6 +12,67 @@ export class MeComponent implements OnInit {
     private toaster: ToastrService
   ) { }
   imageSelected = {} as any;
+
+  option = {
+    from: 'middle-bottom',
+    to: 'middle-top',
+    direct: true,
+    props: {
+      '--ty': {
+        from: '800px',
+        to: '0px'
+      }
+    }
+  };
+
+  optionY2 = {
+    from: 'middle-bottom',
+    to: 'middle-top',
+    direct: true,
+    props: {
+      '--ty': {
+        from: '200px',
+        to: '0px'
+      }
+    }
+  };
+
+  optiony2 = {
+    from: 'middle-bottom',
+    to: 'middle-top',
+    direct: true,
+    props: {
+      '--ty': {
+        from: '-200px',
+        to: '50px'
+      }
+    }
+  };
+
+  optiony3 = {
+    from: 'middle-bottom',
+    to: 'middle-top',
+    direct: true,
+    props: {
+      '--ty': {
+        from: '300px',
+        to: '-300px'
+      }
+    }
+  };
+
+  optionX = {
+    from: 'top-middle',
+    to: 'bottom-middle',
+    direct: true,
+    props: {
+      '--tx': {
+        from: '-100vw',
+        to: '0vw'
+      },
+    }
+  };
+
   ngOnInit(): void {
   }
 

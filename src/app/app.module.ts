@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { MeComponent } from './pages/me/me.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {ClipboardModule} from '@angular/cdk/clipboard';
+import { BasicScrollModule } from 'ngx-basicscroll';
+
 import { ToastrModule } from 'ngx-toastr';
 import { SocialNetworksComponent } from './components/social-networks/social-networks.component';
 import { BlobzComponent } from './components/blobz/blobz.component';
@@ -23,7 +24,7 @@ import { BlobzComponent } from './components/blobz/blobz.component';
     AppRoutingModule,
     BrowserAnimationsModule, // required animations module
     ToastrModule.forRoot(), // ToastrModule added
-    
+    BasicScrollModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
